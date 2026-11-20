@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Jel-Ener IVIV</title>
+<meta name="theme-color" content="#0B2545">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css"></head>
+<body>
+<div id="app"><div class="wrap"><div class="empty">Cargando…</div></div></div>
+<div id="sheet"></div><div id="toast" role="status" aria-live="polite"></div>
+<input type="file" id="in_cam" accept="image/*" capture="environment" hidden>
+<input type="file" id="in_gal" accept="image/*" multiple hidden>
+<script src="vendor/docx.iife.js"></script>
+<script src="logos.js"></script>
+<script src="data.js"></script>
+<script src="exif.js"></script>
+<script src="docgen.js"></script>
+<script src="app.js"></script>
+</body></html>
